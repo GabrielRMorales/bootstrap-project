@@ -7,12 +7,53 @@ main {
 	margin: 0 auto;
 	width:90%;
 }
+
+#logo p {
+	font-size: 20px;
+	color: white;
+}
+#img-to-hide{
+	display:none;
+}
+
+header {
+	width: 90%;
+	background-color: white;
+}
+header .row {
+	margin: 0 auto;
+	background-color: red;
+	width: 100%;
+}
+#logo {
+	margin: 0 auto;
+	height: 45%;
+
+}
+
+.navbar-default {
+	height: 0;
+	padding-top: 0;
+	background-color: white;
+}
+.navbar-nav { 
+	margin-top: 60px;
+    flex-direction: row;
+    
+    background-color: white;
+}
+
+li {
+	color: black;
+	font-size: 20px;
+	padding-right: 100px;
+}
 #initial-articles {
 	margin-bottom: 100px;
 }
 #headliner {
 	background-color: blue;
-	height: 800px;
+	height: 900px;
 }
 
 aside {
@@ -32,8 +73,29 @@ header,footer {
 	margin: 0 auto;
 	width: 90%;
 	height: 200px;
-	background-color: orange;
+	
 }
 footer {
+	background-color: orange;
 	border-radius: 5px;
+}
+@media (min-width: 576px) { 
+
+	#img-to-hide {
+		display:none;
+	}
+	
+}
+@media (min-width: 768px) { 
+
+#img-to-hide {
+		display: inline;
+	}
+}
+
+@media (min-width: 992px) {
+	#logo p {
+		font-size: 80px;
+	}
+
 }

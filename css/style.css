@@ -1,0 +1,39 @@
+html, body {
+	margin:0;
+	width: 100%;
+}
+main {
+	background-color: gray;
+	margin: 0 auto;
+	width:90%;
+}
+#initial-articles {
+	margin-bottom: 100px;
+}
+#headliner {
+	background-color: blue;
+	height: 800px;
+}
+
+aside {
+	background-color: purple;
+	height: 600px;
+}
+.card {
+	height: 400px;
+}
+.card-img-top {
+	height: 80%;
+}
+#in-the-magazine .card {
+	padding: 30px;
+}
+header,footer {
+	margin: 0 auto;
+	width: 90%;
+	height: 200px;
+	background-color: orange;
+}
+footer {
+	border-radius: 5px;
+}

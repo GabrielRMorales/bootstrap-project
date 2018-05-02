@@ -1,9 +1,10 @@
 html, body {
 	margin:0;
 	width: 100%;
+	background-color: gray;
 }
 main {
-	background-color: gray;
+	background-color: white;
 	margin: 0 auto;
 	width:90%;
 }
@@ -46,24 +47,33 @@ header .row {
 .navbar-toggler {
 	margin-top: 12%;
 	margin-left:90%;
-	background-color: black;
+	background-color: gray;
 }
 li {
-	color: black;
 	font-size: 20px;
 	padding-right: 100px;
 }
+.navbar-nav a {
+		color: black;
+	}
 #initial-articles {
 	margin-bottom: 100px;
 }
 #headliner {
-	background-color: blue;
+	background-color: white;
 	height: 900px;
 }
-
+#headliner img {
+	height: 50%;
+}
 aside {
-	background-color: purple;
+	background-color: white;
+	margin-top: 25%;
 	height: 600px;
+}
+#latest-news li {
+	list-style-type: none;
+	border-bottom: 1px solid black;
 }
 .card {
 	height: 400px;
@@ -73,6 +83,13 @@ aside {
 }
 #in-the-magazine .card {
 	padding: 30px;
+}
+#in-the-magazine h2 {
+	font-size: 25px;
+}
+#in-the-magazine p {
+	font-size: .75em;
+	padding-bottom: 10px;
 }
 header,footer {
 	margin: 0 auto;
@@ -84,6 +101,9 @@ footer {
 	height: 200px;
 	background-color: orange;
 	border-radius: 5px;
+}
+#bottom-nav li {
+	display: inline-block;
 }
 @media (min-width: 576px) { 
 	header {
@@ -101,6 +121,13 @@ footer {
 header {
 		height: 100px;
 	}
+aside {
+	margin-top: 15px;
+}
+.navbar-nav li{
+		padding-right: 15%;
+
+	}
 #img-to-hide {
 		display: inline;
 	}
@@ -112,6 +139,5 @@ header {
 	}
 	#logo p {
 		font-size: 80px;
-	}
-
+	}=
 }
